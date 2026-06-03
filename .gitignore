@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+
+.vscode/
+
+# Datasets
+dataset/
+damage_type_model/dataset/
+
+# Training outputs
+runs/
+damage_type_model/runs/
+
+# Test images
+damage_type_model/test_images/
+
+# Model weights
+*.pt
